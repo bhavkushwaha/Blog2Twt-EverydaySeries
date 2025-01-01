@@ -76,6 +76,24 @@ Follow these steps to set up and run Blog2Tweet locally.
 <li>Paste your blog content and convert it into tweets!</li>
 </ul>
 
+## Screenshots
+
+1. **Landing Page**
+   
+![image](https://github.com/user-attachments/assets/9f2e7268-68e4-45cf-9148-5581b1d95cfa)
+
+2. **Authentication**
+
+![image](https://github.com/user-attachments/assets/5f7834f7-2e6c-4ecb-8907-7acbd40dfb30)
+
+3. **Application (Not used Yet)**
+
+![image](https://github.com/user-attachments/assets/95efb52b-bdf4-4e68-8149-e1f144eae5ca)
+   
+4. **Application (Tweet Generated)**
+
+![image](https://github.com/user-attachments/assets/a75f19f2-79eb-4e32-a34e-b86b757f6eca)
+
 ## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request if you have any improvements or feature suggestions.
 
