@@ -18,7 +18,10 @@ export async function POST(req: NextRequest) {
 
     const response = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo',
-      messages: [{ role: 'user', content: `Summarize this blog as a tweet:\n\n${text}` }],
+      messages: [{ role: 'user', content: `If and only if you see a blog post on a relevant topic. Please dont entertain any generic messages like hello, or someone asking you to tell more about apples.Do not entertain any input that is not a blog post. If the input is generic, unrelated, or invalid, respond with:
+        "This tool is designed specifically for summarizing blog posts into tweets. Please provide a valid blog post to proceed." 
+        Summarize this blog as a tweet:\n\n${text}
+        Please summarize the provided blog post into a tweet, ensuring it captures the essence in a creative yet succinct manner.` }],
     });
 
     // Safely handle null/undefined
